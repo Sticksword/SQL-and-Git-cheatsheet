@@ -2,15 +2,21 @@
 
 ## Git stuff
 
-### Updating the branch you are in with the master branch
+#### Updating the branch you are in with the master branch
 * `git checkout master`
 * `git pull`
 * `git checkout branch-to-update`
 * `git rebase master`
 (merge as necessary using `git add <files>` and `git rebase --continue`
 
+#### Removing files
+* `git clean -f` removes files that are not tracked
+* `git checkout .` removes files that are tracked
+* `git reset --hard` removes staged and unstaged tracked files
 
 ## SQL stuff
+
+Good explanation of SQL joins: http://stackoverflow.com/questions/406294/left-join-vs-left-outer-join-in-sql-server
 
 ```
 CREATE TABLE <table-name> (
