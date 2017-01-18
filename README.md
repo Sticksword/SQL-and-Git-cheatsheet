@@ -6,8 +6,7 @@
 * `git checkout master`
 * `git pull`
 * `git checkout branch-to-update`
-* `git rebase master`
-(merge as necessary using `git add <files>` and `git rebase --continue`
+* `git merge master`
 
 #### Removing files
 * `git clean -f` removes files that are not tracked
