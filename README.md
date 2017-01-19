@@ -2,7 +2,7 @@
 
 ## Git stuff
 
-#### Updating the branch you are in with the master branch
+#### Updating the branch you are in with the `master` branch
 * `git checkout master`
 * `git pull`
 * `git checkout branch-to-update`
@@ -12,6 +12,14 @@
 * `git clean -f` removes files that are not tracked
 * `git checkout .` removes files that are tracked
 * `git reset --hard` removes staged and unstaged tracked files
+
+#### Make new branch from `master`
+* `git checkout -b <new-branch-name>`
+
+#### Deleting branches
+* `git branch -d <branch_name>` deletes local branch
+* for deleting a branch remotely, see this for further info:
+ * http://stackoverflow.com/questions/2003505/how-to-delete-a-git-branch-both-locally-and-remotely
 
 ## SQL stuff
 
