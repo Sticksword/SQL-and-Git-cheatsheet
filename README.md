@@ -15,7 +15,9 @@
 
 ## SQL stuff
 
-Good explanation of SQL joins: http://stackoverflow.com/questions/406294/left-join-vs-left-outer-join-in-sql-server
+* Good explanation of SQL joins: http://stackoverflow.com/questions/406294/left-join-vs-left-outer-join-in-sql-server
+* Constraints limit the columns
+* Indexes can also limit columns (eg. unique index) but also make things faster
 
 ```
 CREATE TABLE <table-name> (
@@ -47,5 +49,9 @@ INCREMENT BY 2
 NOCYCLE
 CACHE 500
 NOORDER;
+```
+
+```
+ALTER TABLE <table-name> [ADD|DROP|RENAME] [COLUMN|CONSTRAINT] <column-name|constraint-name>;
 ```
 
