@@ -21,8 +21,9 @@
 * for deleting a branch remotely, see this for further info:
  * http://stackoverflow.com/questions/2003505/how-to-delete-a-git-branch-both-locally-and-remotely
 
-## SQL stuff
+## DB/SQL stuff
 
+* http://dba.stackexchange.com/questions/31260/consistency-in-acid-and-cap-theorem-are-they-the-same
 * Good explanation of SQL joins: http://stackoverflow.com/questions/406294/left-join-vs-left-outer-join-in-sql-server
 * Constraints limit the columns
 * Indexes can also limit columns (eg. unique index) but also make things faster
