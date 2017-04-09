@@ -25,6 +25,7 @@
 
 * consider read/write ratio
 * http://dba.stackexchange.com/questions/31260/consistency-in-acid-and-cap-theorem-are-they-the-same
+* https://docs.microsoft.com/en-us/azure/documentdb/documentdb-nosql-vs-sql
 * Good explanation of SQL joins: http://stackoverflow.com/questions/406294/left-join-vs-left-outer-join-in-sql-server
 * Constraints limit the columns
 * Indexes can also limit columns (eg. unique index) but also make things faster
