@@ -29,6 +29,7 @@
 * Good explanation of SQL joins: http://stackoverflow.com/questions/406294/left-join-vs-left-outer-join-in-sql-server
 * Constraints limit the columns
 * Indexes can also limit columns (eg. unique index) but also make things faster
+* GROUP BY info (see bottom answer) http://stackoverflow.com/questions/2421388/using-group-by-on-multiple-columns
 
 ```
 CREATE TABLE <table-name> (
