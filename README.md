@@ -20,6 +20,11 @@
 * `git branch -d <branch_name>` deletes local branch
 * for deleting a branch remotely, see this for further info:
  * http://stackoverflow.com/questions/2003505/how-to-delete-a-git-branch-both-locally-and-remotely
+ 
+#### Squashing / cleaning commits
+* `git rebase -i origin/master`
+* follow on screen instructions to mark stuff as `squash` or not
+* `git push -f` after with new singular and cleaned commit message
 
 ## DB/SQL stuff
 
@@ -29,7 +34,9 @@
 * Good explanation of SQL joins: http://stackoverflow.com/questions/406294/left-join-vs-left-outer-join-in-sql-server
 * Constraints limit the columns
 * Indexes can also limit columns (eg. unique index) but also make things faster
-* GROUP BY info (see bottom answer) http://stackoverflow.com/questions/2421388/using-group-by-on-multiple-columns
+* `GROUP BY` info (see bottom answer) http://stackoverflow.com/questions/2421388/using-group-by-on-multiple-columns
+* `EXPLAIN` is a great tool to analyze queries
+* can kill long processes via `show full processlist` and then `kill <process-id>`
 
 ```
 CREATE TABLE <table-name> (
