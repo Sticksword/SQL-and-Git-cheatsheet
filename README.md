@@ -37,6 +37,7 @@
 * `GROUP BY` info (see bottom answer) http://stackoverflow.com/questions/2421388/using-group-by-on-multiple-columns
 * `EXPLAIN` is a great tool to analyze queries
 * can kill long processes via `show full processlist` and then `kill <process-id>`
+* SQL index DOs and DONTs: https://stackoverflow.com/questions/6098616/dos-and-donts-for-indexes
 
 ```
 CREATE TABLE <table-name> (
