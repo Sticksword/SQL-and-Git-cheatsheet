@@ -2,6 +2,9 @@
 
 ## Git stuff
 
+#### Rewind 1 commit and delete associated changes
+* `git reset --hard HEAD~1`
+
 #### Updating the branch you are in with the `master` branch
 * `git checkout master`
 * `git pull`
